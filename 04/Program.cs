@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace _04
 {
@@ -45,9 +44,8 @@ namespace _04
             var letter = char.Parse(item.Split(' ')[1].Split(':')[0]);
             var password = item.Split(' ')[2];
 
+            // grim!
             return ((password[firstPos - 1] == letter) || (password[secondPos - 1] == letter)) && (password[firstPos - 1] != password[secondPos - 1]);
-            //return (password[firstPos - 1] == password[secondPos - 1]) && (password[firstPos - 1] == letter);
-
         }
     }
 }
