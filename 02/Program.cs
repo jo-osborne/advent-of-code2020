@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace _01
+namespace _02
 {
     class Program
     {
