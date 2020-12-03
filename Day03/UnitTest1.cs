@@ -180,6 +180,7 @@ namespace Day03
             var multiple = 1L;
             foreach (var route in routes)
             {
+                Console.WriteLine(route.NumberOfTrees);
                 multiple = multiple * route.NumberOfTrees;
             }
 
