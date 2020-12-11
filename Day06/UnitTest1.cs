@@ -43,7 +43,7 @@ namespace Day06
                 }
             }
 
-            Assert.That(sum, Is.EqualTo(0));
+            Assert.That(sum, Is.EqualTo(3430));
         }
     }
 }
